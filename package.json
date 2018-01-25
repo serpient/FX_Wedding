@@ -12,12 +12,12 @@
     "redux": "^3.7.2"
   },
   "scripts": {
-    "build-css": "node-sass-chokidar src/ -o src/",
-    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
-    "start-js": "react-scripts start",
-    "start": "react-scripts-ts npm-run-all -p watch-css start-js",
-    "build-js": "react-scripts build",
-    "build": "react-scripts-ts npm-run-all build-css build-js",
+    "build-css": "node-sass-chokidar src/styles -o src/styles",
+    "watch-css": "npm run build-css && node-sass-chokidar src/styles -o src/styles --watch --recursive",
+    "start-js": "react-scripts-ts start",
+    "start": "npm-run-all -p watch-css start-js",
+    "build-js": "react-scripts-ts build",
+    "build": "npm-run-all build-css build-js",
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject"
   },

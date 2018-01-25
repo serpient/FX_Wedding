@@ -1,0 +1,49 @@
+/* 
+=====================
+COLORS
+=====================
+*/
+/* 
+=====================
+FONTS
+=====================
+*/
+/* 
+=====================
+TEXT BLOCKS
+=====================
+*/
+body {
+  background-image: url("../assets/green.JPG");
+  background-color: #637268;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%; }
+
+.header {
+  width: 100%;
+  height: 75px;
+  background-color: white; }
+
+.landing-text {
+  font-family: "Helvetica Neue";
+  font-size: 5vw;
+  color: #637268;
+  text-align: center; }
+
+.landing-subtext {
+  font-family: "Helvetica Neue";
+  font-size: 3vw;
+  color: #637268;
+  text-align: center;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40vw;
+  display: block;
+  background-color: white; }
+
+.main-body-text {
+  display: flex;
+  align-items: center;
+  justify-content: center; }

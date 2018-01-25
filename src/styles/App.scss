@@ -1,0 +1,30 @@
+@import '_variables.scss';
+
+body {
+  background-image: url('../assets/green.JPG');
+  background-color: $dark-green;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 75px;
+  background-color: white;
+}
+
+.landing-text {
+  @include landing-text;
+}
+
+.landing-subtext {
+  @include landing-subtext;
+
+}
+
+.main-body-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
