@@ -18,7 +18,9 @@ body {
   background-color: #637268;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%; }
+  overflow: hidden;
+  min-height: 100vh;
+  background-position: center; }
 
 .header {
   width: 100%;
@@ -26,24 +28,27 @@ body {
   background-color: white; }
 
 .landing-text {
-  font-family: "Helvetica Neue";
-  font-size: 5vw;
-  color: #637268;
+  font-family: "HelveticaNeue-CondensedBold";
+  font-size: 4vw;
+  color: white;
   text-align: center; }
 
 .landing-subtext {
   font-family: "Helvetica Neue";
-  font-size: 3vw;
+  font-size: 1.5vw;
   color: #637268;
   text-align: center;
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
-  width: 40vw;
+  width: 20vw;
   display: block;
   background-color: white; }
 
 .main-body-text {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
+  padding: 1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%); }

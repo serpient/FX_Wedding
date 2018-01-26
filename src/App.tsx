@@ -14,9 +14,7 @@ class App extends React.Component {
         </header>
         <div className="main-body-text">
           <div className="landing-text">CELEBRATE WITH US</div>
-          <div className="landing-box">
-            <div className="landing-subtext">in BALI, JUNE 20th 2019</div>
-          </div>
+          <div className="landing-subtext">in BALI, JUNE 20th 2019</div>
         </div>
       </div>
     );
